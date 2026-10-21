@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BLACKMAGIC</string>
+    <string name="app_subtitle">Professional Video Camera</string>
+    <string name="status_ready">System Ready</string>
+    <string name="permission_rationale">Camera and microphone access are required for manual video recording and audio capture.</string>
+    <string name="permission_granted">Permissions granted. Ready for camera initialization in Phase D.</string>
+    <string name="permission_denied">Camera or Audio permission was denied. Please grant permissions to use recording features.</string>
+    <string name="btn_request_permission">Grant Permissions</string>
+</resources>

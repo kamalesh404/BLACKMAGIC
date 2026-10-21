@@ -1,0 +1,28 @@
+# Built-in APK / Bundle artifacts
+*.apk
+*.ap_
+*.aab
+
+# Gradle caches and build directories
+.gradle/
+build/
+app/build/
+
+# Local configuration
+local.properties
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+.navigation/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and profiling
+*.log
+captures/
+.externalNativeBuild/
+.cxx/
