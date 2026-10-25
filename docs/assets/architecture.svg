@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" width="100%" height="320">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1c1917"/>
+      <stop offset="100%" stop-color="#0c0a09"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="880" height="320" rx="12" fill="#09090b" stroke="#27272a"/>
+  <text x="440" y="38" font-family="sans-serif" font-size="18" font-weight="700" fill="#f4f4f5" text-anchor="middle">
+    BLACKMAGIC Native Android Cinema Architecture
+  </text>
+
+  <!-- UI & Permission Layer -->
+  <g transform="translate(40, 75)">
+    <rect width="230" height="195" rx="8" fill="url(#cardBg)" stroke="#44403c"/>
+    <text x="115" y="30" font-family="sans-serif" font-size="14" font-weight="700" fill="#f59e0b" text-anchor="middle">1. UI &amp; Lifecycle</text>
+    <text x="20" y="65" font-family="sans-serif" font-size="12" fill="#a1a1aa">• MainActivity &amp; ViewBinding</text>
+    <text x="20" y="90" font-family="sans-serif" font-size="12" fill="#a1a1aa">• ActivityResultContracts</text>
+    <text x="20" y="115" font-family="sans-serif" font-size="12" fill="#a1a1aa">• Camera &amp; Mic Permissions</text>
+    <text x="20" y="140" font-family="sans-serif" font-size="12" fill="#a1a1aa">• Lifecycle-Aware State</text>
+    <text x="20" y="165" font-family="sans-serif" font-size="12" fill="#71717a">Material 3 Dark Theme</text>
+  </g>
+
+  <!-- Capability & Hardware Layer -->
+  <g transform="translate(325, 75)">
+    <rect width="230" height="195" rx="8" fill="url(#cardBg)" stroke="#10b981"/>
+    <text x="115" y="30" font-family="sans-serif" font-size="14" font-weight="700" fill="#10b981" text-anchor="middle">2. Camera2 Engine</text>
+    <text x="20" y="65" font-family="sans-serif" font-size="12" fill="#a1a1aa">• HardwareLevel Query</text>
+    <text x="20" y="90" font-family="sans-serif" font-size="12" fill="#a1a1aa">• Sensor Limits (ISO, Nanos)</text>
+    <text x="20" y="115" font-family="sans-serif" font-size="12" fill="#a1a1aa">• CameraProfile Config</text>
+    <text x="20" y="140" font-family="sans-serif" font-size="12" fill="#a1a1aa">• Honor 90 200MP ISOCELL</text>
+    <text x="20" y="165" font-family="sans-serif" font-size="12" fill="#71717a">com.blackmagic.camera.model</text>
+  </g>
+
+  <!-- Encoding & Media Pipeline -->
+  <g transform="translate(610, 75)">
+    <rect width="230" height="195" rx="8" fill="url(#cardBg)" stroke="#38bdf8"/>
+    <text x="115" y="30" font-family="sans-serif" font-size="14" font-weight="700" fill="#38bdf8" text-anchor="middle">3. Media Pipeline</text>
+    <text x="20" y="65" font-family="sans-serif" font-size="12" fill="#a1a1aa">• 4K UHD &amp; 1080p Profiles</text>
+    <text x="20" y="90" font-family="sans-serif" font-size="12" fill="#a1a1aa">• H.264 &amp; H.265 (HEVC)</text>
+    <text x="20" y="115" font-family="sans-serif" font-size="12" fill="#a1a1aa">• Bitrate Calculation</text>
+    <text x="20" y="140" font-family="sans-serif" font-size="12" fill="#a1a1aa">• MediaRecorder Surface</text>
+    <text x="20" y="165" font-family="sans-serif" font-size="12" fill="#71717a">Target: 60-100 Mbps</text>
+  </g>
+
+  <!-- Flow Arrows -->
+  <line x1="270" y1="172" x2="325" y2="172" stroke="#f59e0b" stroke-width="2" stroke-dasharray="4 4"/>
+  <polygon points="325,172 317,167 317,177" fill="#f59e0b"/>
+
+  <line x1="555" y1="172" x2="610" y2="172" stroke="#10b981" stroke-width="2" stroke-dasharray="4 4"/>
+  <polygon points="610,172 602,167 602,177" fill="#10b981"/>
+</svg>
